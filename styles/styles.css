@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.poppins{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    max-width: 1440px;
+    /* margin: 0px;
+    padding: 0px; */
+    background: rgba(255, 255, 255, 1);
+    margin: 0 auto;
+}
+
+/* shared items */
+.display-flex{
+    display: flex;
+}
+.color-1{
+    color: #3A3A3A;
+}
+.btn{
+    color: #FFFFFF;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-weight: 700;
+    border: none;
+}
+.batn{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-weight: 700;
+    border: none;
+}
+
+/* nav section */
+.navbar{
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.nav-list{
+    gap: 34px;
+    /* justify-content: space-between; */
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.nav-item{
+    list-style: none;
+}
+.brand h3{
+    font-size: 1.5rem;
+    font-weight: 700; 
+}
+
+/* Hero section */
+.hero{
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    margin-bottom: 70px;
+    
+}
+.hero-image{
+    background-image: url("/images/Circle\ design.svg");
+    background-size: cover;
+    background-position: ;
+    background-repeat: no-repeat;
+}
+.hero-head h1{
+    font-size: 3.25rem;
+    font-weight: 700;
+    border-bottom: 16px;
+}
+.hero-head p{
+    font-weight: 600;
+    border-bottom: 16px;
+}
+
+/* sponsor section */
+.sponsor{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 60px;
+    margin-bottom: 100px;
+    border: 1px solid rgb(251, 242, 242);
+    border-radius: 4px;
+}
+
+/* card section */
+.Collection{
+    max-width: 1047px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.collection-title{
+    
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.card-collection{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.card{
+    max-width: 330px;
+    border: 1px solid;
+    border-radius: 5px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    border: none;
+}
+.card img{
+    width: 100%;
+    text-align: center;
+}
+.card h4{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.price{
+    font-size: 1.5rem;
+}
+.rating{
+    display: flex;
+    gap: 6px;
+}
+.stars{
+    color: gold;
+    font-weight: bold;
+}
+.score{
+    font-size: 0.87rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.card-details{
+    color: #787885;
+    max-width: 196px;
+}
+.Collection button{
+    color: #E02C6D;
+    background-color: #FFFFFF;
+    border: none;
+    text-align: right;
+    margin-left: 948px;
+}
+
+/* Featured section */
+.gears-container{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin-bottom: 100px;
+    
+}
+.gears h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 16px;
+}
+.gears p{
+    font-weight: 700;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+    max-width: 501px;
+}
