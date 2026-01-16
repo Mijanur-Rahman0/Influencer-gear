@@ -37,6 +37,14 @@ body{
     font-weight: 700;
     border: none;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color: #787885;
+}
+.batn:hover{
+    cursor: pointer;
+    background-color: #787885;
+}
 
 /* nav section */
 .navbar{
@@ -75,7 +83,7 @@ body{
 .hero-image{
     background-image: url("/images/Circle\ design.svg");
     background-size: cover;
-    background-position: ;
+    /* background-position: ; */
     background-repeat: no-repeat;
 }
 .hero-head h1{
@@ -189,4 +197,102 @@ body{
     color: #6C6C6C;
     margin-bottom: 16px;
     max-width: 501px;
+}
+
+/* footer section */
+footer{
+    text-align: center;
+    background: rgba(10, 8, 38, 1);
+    color: white;
+    padding: 50px 0;
+}
+footer h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.social-site{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* responsive for some device */
+@media screen and (max-width: 576px) {
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .brand{
+    text-align: center;
+
+}
+.nav-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* text-align: center; */
+}
+.hero{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.hero div:nth-child(1) {order: 2;}
+.hero-head{
+    text-align: center ;
+}
+.hero-head h1{
+    font-size: 1.75rem;
+}
+.hero-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 51px 33px 16px 22px;
+    margin-bottom: -80px;
+}
+.hero-image img{
+    max-width: 100%;
+    /* height: 190px; */
+    /* justify-items: center; */
+}
+.sponsor{
+    /* max-width: 275px; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.sponsor img{
+    max-width: 100%;
+    /* justify-items: center; */
+}
+.Collection{
+    justify-items: center;
+}
+.card-collection{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+}
+.Collection button{
+    margin-left: 245px;
+}
+
+.gears-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    text-align: center;
+}
+.gears-container img{
+    width: 90%;
+    border-radius: 7px;
+    /* justify-items: center; */
+}
+.gears{
+    max-width: 329px;
+    text-align: center;
+}
+.gears h2{
+    font-size: 1.5rem;
+}
+
+.gears-container div:nth-child(1) {order: 2;}
 }
